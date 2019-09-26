@@ -2,7 +2,7 @@
 
 module GitHubChangelogGenerator
   class Generator
-    MAX_THREAD_NUMBER = 25
+    MAX_THREAD_NUMBER = 2
 
     # Fetch event for issues and pull requests
     # @return [Array] array of fetched issues
